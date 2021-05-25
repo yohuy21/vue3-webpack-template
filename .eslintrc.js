@@ -21,8 +21,8 @@ module.exports = {
 		}],
 		"vue/html-self-closing": ["error", {
 			"html": {
-				"void": "always",
-				"normal": "never",
+				"void": "always",  // 빈 태그
+				"normal": "never", // 일반 태그
 				"component": "always"
 			},
 			"svg": "always",
